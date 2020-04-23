@@ -6,12 +6,23 @@ package com.techm.bm.om.brms;
 
 public class BMTest implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public BMTest() {
-    }
+	private java.lang.String one;
 
+	public BMTest() {
+	}
 
+	public java.lang.String getOne() {
+		return this.one;
+	}
 
+	public void setOne(java.lang.String one) {
+		this.one = one;
+	}
+
+	public BMTest(java.lang.String one) {
+		this.one = one;
+	}
 
 }
