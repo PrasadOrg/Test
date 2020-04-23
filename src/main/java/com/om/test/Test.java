@@ -6,12 +6,23 @@ package com.om.test;
 
 public class Test implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Test() {
-    }
+	private java.lang.String one;
 
+	public Test() {
+	}
 
+	public java.lang.String getOne() {
+		return this.one;
+	}
 
+	public void setOne(java.lang.String one) {
+		this.one = one;
+	}
+
+	public Test(java.lang.String one) {
+		this.one = one;
+	}
 
 }
