@@ -6,12 +6,23 @@ package com.techm.bm.om.brms;
 
 public class Branch implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Branch() {
-    }
+	private java.lang.String b1;
 
+	public Branch() {
+	}
 
+	public java.lang.String getB1() {
+		return this.b1;
+	}
 
+	public void setB1(java.lang.String b1) {
+		this.b1 = b1;
+	}
+
+	public Branch(java.lang.String b1) {
+		this.b1 = b1;
+	}
 
 }
